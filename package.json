@@ -1,0 +1,15 @@
+{
+  "name": "assignment-question-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "highlightContent.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.6.2"
+  }
+}
