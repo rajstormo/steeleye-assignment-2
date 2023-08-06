@@ -50,16 +50,11 @@ const plainTextPositions = [
   },
   {
     start: 518,
-    end: 525,
+    end: 525, 
   },
 ]
 
 let plainText = getPlainText(htmlContent);
-plainText = plainText.trim();
-
 let ans = highlightHTMLContent(htmlContent, plainText, plainTextPositions);
-console.log(ans)
-
-
 
 module.exports =  highlightHTMLContent;
